@@ -1,39 +1,16 @@
-TaskFocus – React Task Management App
+# React + Vite
 
-TaskFocus is a lightweight and productivity-focused task management application built using React. It helps users stay organized by allowing them to create, edit, categorize, and track tasks in a clean, intuitive interface. Designed with a modular component structure, TaskFocus is fast, responsive, and easy to extend.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features
+Currently, two official plugins are available:
 
-➕ Add New Tasks – Quickly create tasks with title, description, and optional category
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-✏️ Edit & Delete Tasks – Manage tasks anytime
+## React Compiler
 
-✅ Mark as Complete – Track progress efficiently
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-🔍 Filter Tasks – View All, Completed, or Pending tasks
+## Expanding the ESLint configuration
 
-🏷️ Category / Project Tags – Organize work neatly
-
-💾 LocalStorage Support – Save tasks even after page refresh
-
-📱 Responsive UI – Works on mobile and desktop
-
-⚛️ React Hooks Based – Built using useState, useEffect, and reusable components
-
-Project Structure
-TaskFocus/
-│── src/
-│   ├── components/
-│   │   ├── TaskForm.jsx
-│   │   ├── TaskItem.jsx
-│   │   ├── TaskList.jsx
-│   ├── pages/
-│   │   └── Home.jsx
-│   ├── hooks/
-│   │   └── useTasks.js
-│   ├── App.jsx
-│   ├── index.js
-│── public/
-│── package.json
-│── README.md
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
