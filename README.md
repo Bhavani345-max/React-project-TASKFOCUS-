@@ -1,16 +1,70 @@
-# React + Vite
+# TaskFocus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFocus is a simple and efficient task management web application built with React.  
+It helps users organize, track, and focus on their daily tasks to improve productivity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Simple and clean user interface
+- Real-time task updates
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+git clone https://github.com/yourusername/taskfocus.git
+
+2. Navigate to the project folder
+
+cd taskfocus
+
+3. Install dependencies
+
+npm install
+
+## Run the Application
+
+Start the development server:
+
+npm start
+
+The application will run at:
+
+http://localhost:3000
+
+## Project Structure
+
+src/
+components/
+TaskList.js
+TaskItem.js
+App.js
+index.js
+
+## Example Usage
+
+1. Enter a task in the input field
+2. Click **Add Task**
+3. Mark tasks as completed
+4. Delete tasks when finished
+
+## Future Improvements
+
+- Add task priority levels
+- Add due dates
+- Dark mode support
+- Task filtering (completed / pending)
+
+## Author
+
+Bhavani Sankar
